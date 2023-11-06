@@ -14,7 +14,3 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cls_bloger.settings')
 
 application = get_wsgi_application()
-
-
-# Vercel Dosn't Know application. He now only app. So we have to do the follwing.
-app = application
